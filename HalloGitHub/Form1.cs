@@ -22,7 +22,8 @@ namespace HalloGitHub
         {
             if (i % 2 == 0)
             {
-                richTextBox1.Text += "Hallo Git-Hub Welt";
+                richTextBox1.Text += "Hallo Git-Hub Welt\n";
+                richTextBox1.Text += "Hallo bkwaechter10 Welt\n";
                 i++;
             }
             else
