@@ -50,9 +50,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="IO-Control.cs" />
     <Compile Include="listPersonen.cs" />
     <Compile Include="Person.cs" />
+=======
+>>>>>>> ff934d240a41a024d77af61abe6f1d5fc22deb23
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
