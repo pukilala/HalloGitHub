@@ -14,6 +14,10 @@ namespace HalloGitHub
         {
             kunden.Add(p);
         }
+        public void addPerson(int matnr, string name)
+        {
+            kunden.Add(new Person(matnr, name));
+        }
         public void delPerson(Person p)
         {
             kunden.Remove(p);
