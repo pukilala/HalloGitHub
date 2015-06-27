@@ -33,9 +33,11 @@ namespace HalloGitHub
             foreach (Person p in kunden)
             {
                 if (newMat < p.MatNr)
-                    newMat = p.MatNr;
-                return newMat;
+                { 
+                    newMat = p.MatNr; 
+                }
             }
+            return newMat;
         }
     }
 }
