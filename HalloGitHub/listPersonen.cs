@@ -26,5 +26,16 @@ namespace HalloGitHub
         {
             return kunden.Find(x => x.MatNr == mat);
         }
+
+        public int getNextMatNr() 
+        {
+            int newMat = -1;
+            foreach (Person p in kunden)
+            {
+                if (newMat < p.MatNr)
+                    newMat = p.MatNr;
+                return newMat;
+            }
+        }
     }
 }
